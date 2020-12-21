@@ -20,8 +20,6 @@ jobs:
       - run:
           name: run tests
           command: |
-            conda init bash
-            source ~/.bashrc
-            conda activate calculator
+            source activate calculator
             flake8 --statistics
             pytest -v --cov
