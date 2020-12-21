@@ -37,4 +37,3 @@ dependencies:
   - wincertstore=0.2=py38_0
   - zipp=3.3.1=py_0
   - zlib=1.2.11=vc14h1cdd9ab_1
-prefix: C:\Users\krist\.conda\envs\calculator
