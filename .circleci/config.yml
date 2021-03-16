@@ -22,4 +22,4 @@ jobs:
           command: |
             source activate calculator
             flake8 --statistics
-            pytest -v --cov
+            pytest -v --cov=calculator
